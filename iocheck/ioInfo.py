@@ -1,4 +1,8 @@
 
 def checkIO():
     import psutil
-    return psutil.disk_io_counters('/')
+    mydic = {}
+    mydic = psutil.disk_io_counters('/')
+
+    return mydic
+print(checkIO())
