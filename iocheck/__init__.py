@@ -1,1 +1,1 @@
-from .ioInfo import checkIO
+from .ioInfo import checkDiskInfo, checkDiskIO
